@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap v5.0.2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/animate.css">
+    <link rel="stylesheet" href="Css/sign.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <title>Sign in</title>
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white ">
+        <div class="container nav-brand">
+            <a href="index.html" class="navbar-brand">
+                <img class="" src="img/dsg/egylogo-22.png" alt="" width="180px">
+                <!-- <span class="egy">EGY</span><span class="cash">CASH</span>  -->
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu-list">List</button>
+
+            <div class="collapse navbar-collapse" id="menu-list">
+                
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">الصفحة الرئيسة</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            خدمتنا
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">خدمات نقل الأموال</a></li>
+                            <li><a class="dropdown-item" href="#">الخزائن</a></li>
+                            <li><a class="dropdown-item" href="#">خدمات أجهزة الصراف الآلى</a></li>
+                            <li><a class="dropdown-item" href="#">خدمات عد وفرز النقدية</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                  
+                    <li class="nav-item"><a href="#" class="nav-link">تواصل معنا</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">عن الشركة</a></li>
+                    <li><a class="btn btn-danger px-5 mx-4 btn-job" href="sign.html">التوظيف</a></li>
+                   
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <!-- end nav -->
+
+    <section class="container">
+        <div class=" sign">
+
+            <legend>البيانات الشخصية</legend>
+            <form class="peronal">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+                    <div class="col my-3">
+                        <input type="text" class="form-control" placeholder="الاسم الاول">
+                    </div>
+                    <div class="col my-3">
+                        <input type="text" class="form-control" placeholder="الاسم الثانى">
+                    </div>
+                    <div class="col my-3">
+                        <input type="text" class="form-control" placeholder="الاسم الثالث">
+                    </div>
+                    <div class="col my-3">
+                        <label for="inputState">تاريخ الميلاد</label>
+                        <input type="date" class="form-control">
+                    </div>
+
+
+
+                    <div class="col my-3">
+                        <label for="inputState">مكان الميلاد</label>
+                        <input type="text" class="form-control" placeholder="برجاء كتابة العنوان بالتفصيل">
+                    </div>
+                    <div class="form-group col d-block">
+                        <label for="inputState">المحافظة</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>اختر...</option>
+                            <option>القاهرة</option>
+                            <option>الجيزة</option>
+                            <option> اسوان</option>
+                            <option> الاسكندرية</option>
+                            <option> الفيوم</option>
+                            <option> طنطا</option>
+                            <option> بورسعيد</option>
+                            <option> الاسماعيلية</option>
+                            <option> السويس</option>
+                        </select>
+                    </div>
+
+                    <div class="col my-3">
+                        <label for="inputState">عنوان السكن الحالى</label>
+                        <input type="text" class="form-control" placeholder="برجاء كتابة العنوان بالتفصيل">
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+
+
+
+        <div class=" sign">
+            <legend> الحالة الاجتماعية</legend>
+            <form class="peronal">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+
+
+
+                </div>
+
+
+                <div class="single my-1  ">
+                    <div class=" d-flex">
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">متزوج</label>
+                        </div>
+                        <div class="form-group col d-block">
+                            <label for="inputState">عدد الاولاد</label>
+                            <select id="inputState" class="child   form-control " width="20%">
+                                <option selected>اختر...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option> 3</option>
+                                <option> 4</option>
+                                <option> 5</option>
+                                <option> 6</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-3">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">أعزب</label>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">غير ذلك</label>
+                        </div>
+                        <div class="col my-3">
+                            <input type="text" class="form-control child" placeholder="برجاء التوضيح">
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+
+
+        <div class=" sign">
+            <legend>بيانات الخدمة العسكرية</legend>
+            <form class="peronal">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+
+                </div>
+
+
+                <div class="single my-1  ">
+                    <div class=" d-flex">
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">أدى الخدمة</label>
+                        </div>
+                        <div class="form-group col d-block">
+                            <label for="inputState">تاريخ انتهاء الخدمة</label>
+                            <input type="date" class="form-control child">
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-3">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">مؤجل</label>
+                    </div>
+                    <div class=" d-flex">
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">أعفاء</label>
+                        </div>
+                        <div class="col my-3">
+                            <input type="text" class="form-control child" placeholder="برجاء ذكر السبب">
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+        <div class=" sign">
+            <legend>الدرجة العلمية</legend>
+            <form class="peronal">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+                    <div class="form-group col d-block">
+                        <label for="inputState">المؤهل الدراسى</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>اختر...</option>
+                            <option>عالى</option>
+                            <option>فوق المتوسط</option>
+                            <option> متوسط</option>
+                        </select>
+                    </div>
+                    <div class="col my-3">
+                        <input type="text" class="form-control" placeholder="الشعبة / التخصص">
+                    </div>
+                    <div class="col my-3">
+                        <label for="inputState">الجهة التعليمية</label>
+                        <input type="text" class="form-control" placeholder="  جامعة / معهد / الخ .. ">
+                    </div>
+
+                    <div class="col my-3">
+                        <label for="inputState">تاريخ التخرج</label>
+                        <input type="date" class="form-control">
+                    </div>
+
+                    <div class="form-group col d-block">
+                        <label for="inputState">التقدير العام</label>
+                        <select id="inputState" class="form-control ">
+                            <option selected>اختر...</option>
+                            <option>امتياز</option>
+                            <option>جيد جداً</option>
+                            <option> جيد</option>
+                            <option> مقبول</option>
+                        </select>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+        <div class=" sign">
+            <legend>الخبرات العملية السابقة</legend>
+            <form class="peronal">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+                    <div class="col  my-3 col-lg-12">
+                        <p>هل سبق لك العمل بمجال نقل الاموال ؟</p>
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">نعم</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mx-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">لا</label>
+                        </div>
+                    </div>
+                    <div class="col row  my-3 col-lg-12 row-col-md-3 row-cols-sm-2 row-cols-1">
+                        <div class="col row   col-lg-12 ">
+                            <p>ترتيب الخبرات الوظيفية من الاحدث الى الاقدم </p>
+                        </div>
+
+                        <div class="col my-3 col-lg-3">
+                            <input type="text" class="form-control" placeholder="اسم الشركة">
+                        </div>
+                        <div class="col my-3 col-lg-3">
+                            <input type="text" class="form-control" placeholder="الوظيفة">
+                        </div>
+                        <div class="col my-3 col-lg-3">
+                            <input type="text" class="form-control" placeholder="عدد سنوات الخبرة">
+                        </div>
+                        <div class="col my-3 col-lg-3">
+                            <input type="number" class="form-control" placeholder="المرتب">
+                        </div>
+                    </div>
+                    <a class="btn btn-primary col-2" href="">اضافة وظيفة اخري</a>
+
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <footer class="footer  text-light">
+        <div class="footer-div ">
+
+            <div class="adress ">
+                <h1>فروعنــــا</h1>
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5> المقر الرئيسى</h5>
+                </div>
+                <p>شارع احمد عرابي - عمارة البنك المركزى المصرى - المهندسين</p>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5> فرع اسيوط</h5>
+                </div>
+                <p>اسيوط - محافظة اسيوط</p>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5> فرع طنطا</h5>
+                </div>
+                <p>طنطا - محافظة طنطا</p>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5> فرع اكتوبر</h5>
+                </div>
+                <p>مدينة السادس من اكتوبر - محافظة الجيزة </p>
+            </div>
+
+            <div class="adress ">
+                <h1>أتصل بنــا</h1>
+
+                <div class="location">
+                    <!-- <i class="fa-solid fa-phone"></i> -->
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <!-- <i class="fa-solid fa-phone-volume"></i> -->
+
+                    <h5> هاتف ارضى</h5>
+                </div>
+                <p>33445566 - 33445566 - 33445566</p>
+
+                <div class="location">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h5> موبايل</h5>
+                </div>
+                <p>01290909090 - 01290909090 - 01290909090 </p>
+                <p>01290909090 - 01290909090 - 01290909090 </p>
+                <div class="location">
+                    <i class="fa-solid fa-fax"></i>
+                    <h5>فاكس</h5>
+                </div>
+                <p>33445566 - 33445566 </p>
+
+            </div>
+
+            <div class="adress ">
+                <h1>التشغيل</h1>
+
+                <div class="location">
+                    <i class="fa-regular fa-clock"></i>
+                    <h5>خدمة نقل الاموال </h5>
+                </div>
+                <p> متوقف : الجمعة - السبت</p>
+                <div class="location">
+                    <i class="fa-regular fa-clock"></i>
+                    <h5> خدمات الصراف الآلى</h5>
+                </div>
+                <p>تعمل على مدار الاسبوع</p>
+
+            </div>
+
+        </div>
+        <div class="footer-down">
+            <div class="footer-bg">
+                <img src="img/dsg/footer-pic.png" alt="">
+            </div>
+            <div class="footer-media">
+                <div>
+                    <img class="footer-logo" src="img/dsg/full-logo.png" alt="" width="250px">
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                
+                <div class="copy">
+                    <p>حقوق النشر © 2022 ايجى كاش مصر</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <!-- <script src="bootstrap.min.js"></script> -->
+    <!-- <script src="popper.min.js"></script> -->
+
+    <script src="JS/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
