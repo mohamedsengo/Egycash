@@ -1,0 +1,30 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Alexandria', sans-serif;
+
+}
+
+
+.sign {
+    margin-top: 100px;
+}
+
+.peronal {
+    border: 2px solid rgb(140, 0, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-style: groove;
+
+}
+
+legend {
+    color: rgb(96, 8, 167);
+    padding-right: 50px;
+    display: flex;
+    /* justify-content: flex-end; */
+
+}
+
+.child {
+    width: 20%;
+}
